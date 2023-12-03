@@ -232,7 +232,7 @@ class PHPUnitChecker:
             pass
 
     def main(self):
-        print("PHPUNIT CHECKER [ MadExploits ]")
+        print("PHPUNIT CHECKER [ Anonre ]")
         lists = input("LIST : ")
         with open(lists, "r") as file:
             websites = filter(None, map(str.strip, file))
